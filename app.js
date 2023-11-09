@@ -21,6 +21,7 @@ oAuth2Client.setCredentials({refresh_token: REFRESH_TOKEN})
                 type: 'OAuth2',
                 user: 'yugeshbunny@gmail.com',
                 clientId: CLIENT_ID,
+                clientSecret: CLIENT_SECRET,
                 refreshToken: REFRESH_TOKEN,
                 accessToken: accessToken
 
