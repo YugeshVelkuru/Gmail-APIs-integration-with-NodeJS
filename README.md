@@ -33,25 +33,11 @@ and adds a label to and moves the email to that label.
 ```bash
    npm install
 
-4. Configure your OAuth2 credentials and Gmail API settings. You can do this by editing the configuration in constants.js or using environment variables.
+4. Configure your OAuth2 credentials and Gmail API settings. You can do this by editing the configuration in app.js or using environment variables.
 
 5. Start application
 ```bash
    node app.js
-   
-# usage
-
-To check for new emails and perform the automation tasks,
-
-send an HTTP GET request to the specified route. By default, this route is /check-emails.
-
-You can change this route in your app.js if needed.
-
-Example request:
-
-```bash
-curl http://localhost:3000/check-emails
-- [Configuration](#configuration)
 
 # Configuration
 You need to configure the application with your OAuth2 credentials, Gmail API settings, and any other configuration required.
